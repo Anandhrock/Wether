@@ -66,8 +66,8 @@ const restweather = () => {
                         Weather is   ${res.weather[0].description}, 
                         Temperature is ${res.main.temp}°F,
                         Feels Like  ${res.main.feels_like}°F,
-                    Max Temperature is ${res.main.temp_max}°F,
-                    Min Temperature is ${res.main.temp_min}°F,
+                       Max Temperature is ${res.main.temp_max}°F,
+                     Min Temperature is ${res.main.temp_min}°F,
                         Humidity:     ${res.main.humidity},
                         Visibility :  ${res.visibility}
                         `;
